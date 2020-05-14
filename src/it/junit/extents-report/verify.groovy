@@ -18,8 +18,8 @@ String expected01 =
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
-import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import io.cucumber.junit.Cucumber;
 import com.cucumber.listener.Reporter;
 
 import java.io.File;
@@ -53,8 +53,8 @@ String expected02 =
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
-import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import io.cucumber.junit.Cucumber;
 import com.cucumber.listener.Reporter;
 
 import java.io.File;

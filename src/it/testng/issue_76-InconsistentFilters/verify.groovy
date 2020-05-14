@@ -14,7 +14,7 @@ assert suite01.isFile()
 assert suite02.isFile()
 
 String expected01 =
-        """import cucumber.api.CucumberOptions;
+        """import io.cucumber.junit.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(
@@ -27,7 +27,7 @@ public class Parallel01IT extends AbstractTestNGCucumberTests {
 }"""
 
 String expected02 =
-        """import cucumber.api.CucumberOptions;
+        """import io.cucumber.junit.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(

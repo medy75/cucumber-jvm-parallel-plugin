@@ -3,7 +3,7 @@
 package $packageName;
 
 #end##
-import cucumber.api.CucumberOptions;
+import io.cucumber.junit.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(

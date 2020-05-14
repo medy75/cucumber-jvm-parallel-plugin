@@ -58,7 +58,7 @@ public class GenerateRunnersMojo extends AbstractMojo implements FileGeneratorCo
      * }</pre>
      *
      * <p>
-     * see cucumber.api.CucumberOptions.glue
+     * see io.cucumber.junit.CucumberOptions.glue
      * </p>
      */
     @Parameter(property = "cucumber.glue", required = true)
@@ -86,7 +86,7 @@ public class GenerateRunnersMojo extends AbstractMojo implements FileGeneratorCo
     private File featuresDirectory;
 
     /**
-     * see cucumber.api.CucumberOptions.strict
+     * see io.cucumber.junit.CucumberOptions.strict
      */
     @Parameter(defaultValue = "true", property = "cucumber.strict", required = true)
     private boolean strict;
@@ -98,7 +98,7 @@ public class GenerateRunnersMojo extends AbstractMojo implements FileGeneratorCo
      * }</pre>
      *
      * <p>
-     * see cucumber.api.CucumberOptions.plugin
+     * see io.cucumber.junit.CucumberOptions.plugin
      * </p>
      */
     @Parameter(defaultValue = "json", property = "cucumber.format", required = true)
@@ -118,14 +118,14 @@ public class GenerateRunnersMojo extends AbstractMojo implements FileGeneratorCo
      *    </plugin>
      * </plugins>
      * }</pre>
-     * <p> see cucumber.api.CucumberOptions.plugins </p>
+     * <p> see io.cucumber.junit.CucumberOptions.plugins </p>
      */
     @Parameter
     private List<Plugin> plugins;
 
     /**
      * <p>
-     * see cucumber.api.CucumberOptions.monochrome
+     * see io.cucumber.junit.CucumberOptions.monochrome
      * </p>
      */
     @Parameter(defaultValue = "false", property = "cucumber.monochrome", required = true)
@@ -142,7 +142,7 @@ public class GenerateRunnersMojo extends AbstractMojo implements FileGeneratorCo
      * }</pre>
      *
      * <p>
-     * see cucumber.api.CucumberOptions.tags
+     * see io.cucumber.junit.CucumberOptions.tags
      * </p>
      */
     @Parameter(property = "cucumber.tags", required = false)
@@ -155,7 +155,7 @@ public class GenerateRunnersMojo extends AbstractMojo implements FileGeneratorCo
     private boolean useTestNG;
 
     /**
-     * see cucumber.api.CucumberOptions
+     * see io.cucumber.junit.CucumberOptions
      */
     @Parameter(property = "cucumber.options", required = false)
     private String cucumberOptions;

@@ -17,7 +17,7 @@ assert suite02.isFile()
 assert !suite03.isFile()
 
 String expected01 =
-        """import cucumber.api.CucumberOptions;
+        """import io.cucumber.junit.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(
@@ -33,7 +33,7 @@ public class Parallel01IT extends AbstractTestNGCucumberTests {
 Assert.assertThat(suite01.text, equalToIgnoringWhiteSpace(expected01))
 
 String expected02 =
-        """import cucumber.api.CucumberOptions;
+        """import io.cucumber.junit.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(

@@ -11,7 +11,7 @@ File feature = new File(basedir, "/src/test/resources/features/feature1.feature"
 assert suite01.isFile()
 
 String expected01 =
-        """import cucumber.api.CucumberOptions;
+        """import io.cucumber.junit.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(
